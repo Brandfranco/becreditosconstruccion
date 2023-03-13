@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    
+    <div class="formulario"  > <!-- enviamos esta info a la base de dato.. el post indica que la informacion no sea visible -->
+    <form action="php/formulario.php" method="POST"> <!-- Etiqueta para crear formularios -->
+        <h1 class="titulo">FORMULARIO DE CONTACTO</h1>
+        <table><!-- etiqueta para crear tablas, los formularios llevan tablas -->
+<tr><!-- etiqueta para generar un segmento o fila -->
+    <!-- td se usa para generar columnas -->
+    <td><input type="text" placeholder="Tu nombre" name="nombre" required> </td> <!-- Se agregra input para recibir el dato del nombre 
+    y placeholder para poner esa sugerencia-->
+</tr>
+<tr>
+    <td><input type="number" placeholder="Tu documento" name="identidad" required></td>
+</tr>
+<tr>
+
+    <td><input type="number" placeholder="Tu Numero" name="telefono" required></td>
+</tr>
+<tr>
+    
+    <td><input type="email" placeholder="Tu email" name="email" required></td>
+</tr>
+<tr>
+    
+    <td><input type="text" placeholder="Tu ubicacion" name="ubicacion" required></td>
+</tr>
+<tr>
+   
+    <td>
+        <select name="pagaduria" required><!-- creamos una seccion para poner la lista -->
+         <option  selected hidden value="">PAGADURIA</option> <!-- Con option agregamos las opciones -->
+         <option value="policia">POLICIA NACIONAL</option>
+         <option value="pensionado">PENSIONADO</option>
+         <option value="docente">DOCENTE</option>
+         <option value="empleadop">EMPLEADO PUBLICO</option>
+         <option value="fuerzam">FUERZAS MILITARES</option>
+         <option value="otro">OTRO</option>
+
+        </select>
+    </td>
+</tr>
+<tr>
+    <td>
+        <input type="submit" value="Enviar" name="enviar"> 
+    </td>
+</tr>
+        </table>
+
+    </form>
+</div>
+</body>
+</html>

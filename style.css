@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+header{
+    background-image: url(imagenes/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70ch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.menu{
+position: absolute;
+top: 10px;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+
+}
+.menu .logo {
+    font-weight: bold;
+    font-size: 25px;
+    color:black;
+}
+.menu .navbar ul {
+list-style: none;
+}
+.menu .navbar ul li {
+    position:relative ;
+    float: left;
+    }
+    .menu .navbar ul li a{
+        font-size: 18px;
+        padding: 20px;
+        color: #ffff;
+        display: block;
+        }
+    .menu .navbar  ul li a :hover{
+        color: #34e9d0;
+    }
+    #menu{
+        display: none;
+    }
+    .menu-icono{
+        width: 25px;
+    }
+    .menu label{
+        cursor: pointer;
+        display: none;
+        
+    }
+    .header-text{
+        margin-top: -40px;
+        text-align: center;
+        width: 700px;
+    }
+    .header-text h1{
+        color:white;
+        font-size: 45px;
+    }
+    .header-text p{
+        margin-top: 35px;
+        color: white;
+    }
+    .btn-1{
+        background-color:#1d16e2;
+        display: inline-block; 
+        margin-top: 35px; 
+        padding: 15px 25px;
+        border-radius: 25px;
+        color: #ffff;
+    }
+    .btn-1:hover{
+        background-color: #318bf3;
+    }
+    .seccion-img {
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .seccion-img img{
+        margin-top: -200px;
+        width: 500px;
+    }
+
+    .services{
+        text-align: center;
+        margin-top: 50px;
+        color: grey;
+    }
+    .services h2{
+        font-size: 45px;
+        margin-bottom: 35px;
+        color:#1d16e2 ;
+    }
+    .txt{
+        font-size: 18px;
+        padding: 0 250px;
+        margin-bottom: 50px;
+    }
+    .group-services{
+        display: flex;
+    }
+    .group{
+        text-align: center;
+        padding: 0 40px;
+
+    }
+    .group igm{
+        width: 50px;
+        margin-bottom: 3opx;
+    }
+    .group h3{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .group p{
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .btn-2{
+        margin:50px 0px;
+        display: inline-block;
+        padding: 15px 45px;
+        border-radius: 25px;
+        color: #1d16e2;
+        border: 1px solid #1d16e2 ;
+       
+
+    }
+    .btn-2:hover{
+         background-color: #318bf3;
+    }
+
+    .photos{
+        padding: 80px 0px;
+        display: flex;
+    }
+    .photos-txt{
+        padding: 0px 100px 0px 0px;
+    }
+    .photos-txt h2{
+        font-size: 45px;
+        margin-bottom: 35px;
+        color: #1d16e2;
+    }
+    .photos-txt p{
+        color: black;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .imgs{
+        display: flex;
+        margin-right: 50px;
+    }
+    .photos img{
+        width: 250px;
+        margin:0px 10px;
+    }
+ .numbers{
+    text-align: center;
+    padding: 50px 0px;
+
+ }
+ .numbers h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+    color: #1d16e2;
+ }
+
+ .numbers-group{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ }
+.number h3{
+ font-size: 105px;
+ color: #f5f5f5;
+ margin-bottom: 35px;
+}
+.number p{
+    color: gray;
+    font-size: 20px;
+}
+footer{
+    background-image: url(imagenes/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: -50vh;
+}
+.ft{
+    padding: 80px 0px;
+    display: flex;
+}
+.ft-a{
+    color: white;
+    margin-bottom: 15px;
+    width: 550px;
+}
+.pt-a h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+.ft-a li{
+    list-style: none;
+
+}
+.ft-a li a{
+    color: white;
+    display: block;
+    margin-bottom: 15px;
+}
+.form-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 135px;
+}
+.form-text h3{
+    margin-bottom: 15px;
+}
+.email{
+    background-color: white;
+    border: 1px solid blue;
+    margin-top: 25px;
+    padding: 15px 35px;
+    border-radius: 25px;
+}
+.btn-3{
+        margin-top: 20px;
+        background-color: #1d16e2;
+        border-radius: 15px;
+        padding: 10px 35px;
+        color: white;
+        border: 0;
+    }
+    
